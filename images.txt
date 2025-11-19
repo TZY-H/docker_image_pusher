@@ -2,6 +2,11 @@ nginx
 redis/redis-stack
 hello-world
 ubuntu:20.04
+px4io/px4-dev-nuttx-jammy
+ros:humble-ros-base
+ros:humble-desktop-full
+ros:noetic-ros-base
+ros:noetic-desktop-full
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
