@@ -1,12 +1,13 @@
-nginx
-redis/redis-stack
-hello-world
-ubuntu:20.04
-px4io/px4-dev-nuttx-jammy
---alias=humble-ros-base ros:humble-ros-base
---alias=humble-desktop-full ros:humble-desktop-full
---alias=noetic-ros-base ros:noetic-ros-base
---alias=noetic-desktop-full ros:noetic-desktop-full
+#nginx
+#redis/redis-stack
+#hello-world
+#ubuntu:20.04
+#px4io/px4-dev-nuttx-jammy
+multiarch/qemu-user-static
+ros:humble-ros-base
+ros:humble-desktop-full
+ros:noetic-ros-base
+ros:noetic-desktop-full
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
