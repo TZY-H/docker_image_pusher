@@ -3,9 +3,9 @@
 #hello-world
 #ubuntu:20.04
 #px4io/px4-dev-nuttx-jammy
-multiarch/qemu-user-static
+#multiarch/qemu-user-static
 ros:humble-ros-base
-ros:humble-desktop-full
+#ros:humble-desktop-full
 ros:noetic-ros-base
 ros:noetic-desktop-full
 #支持私库
