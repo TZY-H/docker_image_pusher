@@ -5,11 +5,12 @@
 #px4io/px4-dev-nuttx-jammy
 #multiarch/qemu-user-static
 #ros:humble-ros-base
-osrf/ros:humble-desktop-full
+#osrf/ros:humble-desktop-full
 #ros:noetic-ros-base
-osrf/ros:noetic-desktop-full
+#osrf/ros:noetic-desktop-full
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 
+ubuntu:22.04
