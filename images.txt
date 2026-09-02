@@ -12,4 +12,10 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 ubuntu:22.04
+#--platform=linux/arm64 ubuntu:22.04
+
+# ROS 2 Humble 基础环境
+--platform=linux/arm64 ros:humble-ros-base-jammy
+
+# ROS 2 Humble 常用感知环境
+--platform=linux/arm64 ros:humble-perception-jammy
